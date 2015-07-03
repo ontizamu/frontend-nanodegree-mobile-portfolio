@@ -1,0 +1,516 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'grunt-cli',
+1 verbose cli   'npm',
+1 verbose cli   'install',
+1 verbose cli   '-save-dev',
+1 verbose cli   'grunt',
+1 verbose cli   'touch',
+1 verbose cli   'Gruntfile.js' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of C:\Users\Esther\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\Esther\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'grunt-cli', null ]
+7 verbose cache add spec grunt-cli
+8 silly cache add args [ 'npm', null ]
+9 verbose cache add spec npm
+10 silly cache add args [ 'install', null ]
+11 verbose cache add spec install
+12 silly cache add args [ 'grunt', null ]
+13 verbose cache add spec grunt
+14 silly cache add args [ 'touch', null ]
+15 verbose cache add spec touch
+16 silly cache add args [ 'Gruntfile.js', null ]
+17 verbose cache add spec Gruntfile.js
+18 silly cache add parsed spec { raw: 'grunt-cli',
+18 silly cache add   scope: null,
+18 silly cache add   name: 'grunt-cli',
+18 silly cache add   rawSpec: '',
+18 silly cache add   spec: '*',
+18 silly cache add   type: 'range' }
+19 silly addNamed grunt-cli@*
+20 verbose addNamed "*" is a valid semver range for grunt-cli
+21 silly addNameRange { name: 'grunt-cli', range: '*', hasData: false }
+22 silly mapToRegistry name grunt-cli
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/grunt-cli
+26 verbose addNameRange registry:https://registry.npmjs.org/grunt-cli not in flight; fetching
+27 silly cache add parsed spec { raw: 'npm',
+27 silly cache add   scope: null,
+27 silly cache add   name: 'npm',
+27 silly cache add   rawSpec: '',
+27 silly cache add   spec: '*',
+27 silly cache add   type: 'range' }
+28 silly addNamed npm@*
+29 verbose addNamed "*" is a valid semver range for npm
+30 silly addNameRange { name: 'npm', range: '*', hasData: false }
+31 silly mapToRegistry name npm
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/npm
+35 verbose addNameRange registry:https://registry.npmjs.org/npm not in flight; fetching
+36 silly cache add parsed spec { raw: 'install',
+36 silly cache add   scope: null,
+36 silly cache add   name: 'install',
+36 silly cache add   rawSpec: '',
+36 silly cache add   spec: '*',
+36 silly cache add   type: 'range' }
+37 silly addNamed install@*
+38 verbose addNamed "*" is a valid semver range for install
+39 silly addNameRange { name: 'install', range: '*', hasData: false }
+40 silly mapToRegistry name install
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/install
+44 verbose addNameRange registry:https://registry.npmjs.org/install not in flight; fetching
+45 silly cache add parsed spec { raw: 'grunt',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'grunt',
+45 silly cache add   rawSpec: '',
+45 silly cache add   spec: '*',
+45 silly cache add   type: 'range' }
+46 silly addNamed grunt@*
+47 verbose addNamed "*" is a valid semver range for grunt
+48 silly addNameRange { name: 'grunt', range: '*', hasData: false }
+49 silly mapToRegistry name grunt
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry uri https://registry.npmjs.org/grunt
+53 verbose addNameRange registry:https://registry.npmjs.org/grunt not in flight; fetching
+54 silly cache add parsed spec { raw: 'touch',
+54 silly cache add   scope: null,
+54 silly cache add   name: 'touch',
+54 silly cache add   rawSpec: '',
+54 silly cache add   spec: '*',
+54 silly cache add   type: 'range' }
+55 silly addNamed touch@*
+56 verbose addNamed "*" is a valid semver range for touch
+57 silly addNameRange { name: 'touch', range: '*', hasData: false }
+58 silly mapToRegistry name touch
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry uri https://registry.npmjs.org/touch
+62 verbose addNameRange registry:https://registry.npmjs.org/touch not in flight; fetching
+63 silly cache add parsed spec { raw: 'Gruntfile.js',
+63 silly cache add   scope: null,
+63 silly cache add   name: 'Gruntfile.js',
+63 silly cache add   rawSpec: '',
+63 silly cache add   spec: '*',
+63 silly cache add   type: 'range' }
+64 silly addNamed Gruntfile.js@*
+65 verbose addNamed "*" is a valid semver range for Gruntfile.js
+66 silly addNameRange { name: 'Gruntfile.js', range: '*', hasData: false }
+67 silly mapToRegistry name Gruntfile.js
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/Gruntfile.js
+71 verbose addNameRange registry:https://registry.npmjs.org/Gruntfile.js not in flight; fetching
+72 verbose request uri https://registry.npmjs.org/Gruntfile.js
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 6:29:17 PM
+75 verbose request id 132e1a5f9b071292
+76 http request GET https://registry.npmjs.org/Gruntfile.js
+77 verbose request uri https://registry.npmjs.org/install
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 6:29:17 PM
+80 verbose etag "113P54VHX3FJP3LDSDBKOLHUM"
+81 http request GET https://registry.npmjs.org/install
+82 verbose request uri https://registry.npmjs.org/touch
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 6:29:17 PM
+85 verbose etag "BZ27R72CQ7316RETIA3TJIR48"
+86 http request GET https://registry.npmjs.org/touch
+87 verbose request uri https://registry.npmjs.org/grunt
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 6:29:17 PM
+90 verbose etag "CGPRBZWY5IDQO3SPVB1G80THV"
+91 http request GET https://registry.npmjs.org/grunt
+92 verbose request uri https://registry.npmjs.org/grunt-cli
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 6:29:17 PM
+95 verbose etag "26N0GMMHEW7TF327V97DB1WS8"
+96 http request GET https://registry.npmjs.org/grunt-cli
+97 verbose request uri https://registry.npmjs.org/npm
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 6:29:17 PM
+100 verbose etag "AUA1MJAUA17JZD0LF8WX5B9IW"
+101 http request GET https://registry.npmjs.org/npm
+102 http 304 https://registry.npmjs.org/grunt
+103 silly get cb [ 304,
+103 silly get   { date: 'Fri, 26 Jun 2015 01:29:12 GMT',
+103 silly get     via: '1.1 varnish',
+103 silly get     'cache-control': 'max-age=60',
+103 silly get     etag: '"CGPRBZWY5IDQO3SPVB1G80THV"',
+103 silly get     age: '31',
+103 silly get     connection: 'keep-alive',
+103 silly get     'x-served-by': 'cache-lax1429-LAX',
+103 silly get     'x-cache': 'HIT',
+103 silly get     'x-cache-hits': '1',
+103 silly get     'x-timer': 'S1435282152.350416,VS0,VE1',
+103 silly get     vary: 'Accept' } ]
+104 verbose etag https://registry.npmjs.org/grunt from cache
+105 verbose get saving grunt to C:\Users\Esther\AppData\Roaming\npm-cache\registry.npmjs.org\grunt\.cache.json
+106 http 304 https://registry.npmjs.org/npm
+107 silly get cb [ 304,
+107 silly get   { date: 'Fri, 26 Jun 2015 01:29:12 GMT',
+107 silly get     via: '1.1 varnish',
+107 silly get     'cache-control': 'max-age=60',
+107 silly get     etag: '"AUA1MJAUA17JZD0LF8WX5B9IW"',
+107 silly get     age: '49',
+107 silly get     connection: 'keep-alive',
+107 silly get     'x-served-by': 'cache-lax1433-LAX',
+107 silly get     'x-cache': 'HIT',
+107 silly get     'x-cache-hits': '4',
+107 silly get     'x-timer': 'S1435282152.355734,VS0,VE0',
+107 silly get     vary: 'Accept' } ]
+108 verbose etag https://registry.npmjs.org/npm from cache
+109 verbose get saving npm to C:\Users\Esther\AppData\Roaming\npm-cache\registry.npmjs.org\npm\.cache.json
+110 http 304 https://registry.npmjs.org/touch
+111 silly get cb [ 304,
+111 silly get   { date: 'Fri, 26 Jun 2015 01:29:12 GMT',
+111 silly get     via: '1.1 varnish',
+111 silly get     'cache-control': 'max-age=60',
+111 silly get     etag: '"BZ27R72CQ7316RETIA3TJIR48"',
+111 silly get     age: '58',
+111 silly get     connection: 'keep-alive',
+111 silly get     'x-served-by': 'cache-lax1424-LAX',
+111 silly get     'x-cache': 'HIT',
+111 silly get     'x-cache-hits': '1',
+111 silly get     'x-timer': 'S1435282152.356229,VS0,VE0',
+111 silly get     vary: 'Accept' } ]
+112 verbose etag https://registry.npmjs.org/touch from cache
+113 verbose get saving touch to C:\Users\Esther\AppData\Roaming\npm-cache\registry.npmjs.org\touch\.cache.json
+114 http 304 https://registry.npmjs.org/grunt-cli
+115 silly get cb [ 304,
+115 silly get   { date: 'Fri, 26 Jun 2015 01:29:12 GMT',
+115 silly get     via: '1.1 varnish',
+115 silly get     'cache-control': 'max-age=60',
+115 silly get     etag: '"26N0GMMHEW7TF327V97DB1WS8"',
+115 silly get     age: '52',
+115 silly get     connection: 'keep-alive',
+115 silly get     'x-served-by': 'cache-lax1433-LAX',
+115 silly get     'x-cache': 'HIT',
+115 silly get     'x-cache-hits': '1',
+115 silly get     'x-timer': 'S1435282152.359631,VS0,VE0',
+115 silly get     vary: 'Accept' } ]
+116 verbose etag https://registry.npmjs.org/grunt-cli from cache
+117 verbose get saving grunt-cli to C:\Users\Esther\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-cli\.cache.json
+118 http 304 https://registry.npmjs.org/install
+119 silly get cb [ 304,
+119 silly get   { date: 'Fri, 26 Jun 2015 01:29:12 GMT',
+119 silly get     via: '1.1 varnish',
+119 silly get     'cache-control': 'max-age=60',
+119 silly get     etag: '"113P54VHX3FJP3LDSDBKOLHUM"',
+119 silly get     age: '9',
+119 silly get     connection: 'keep-alive',
+119 silly get     'x-served-by': 'cache-lax1426-LAX',
+119 silly get     'x-cache': 'HIT',
+119 silly get     'x-cache-hits': '1',
+119 silly get     'x-timer': 'S1435282152.363913,VS0,VE0',
+119 silly get     vary: 'Accept' } ]
+120 verbose etag https://registry.npmjs.org/install from cache
+121 verbose get saving install to C:\Users\Esther\AppData\Roaming\npm-cache\registry.npmjs.org\install\.cache.json
+122 http 404 https://registry.npmjs.org/Gruntfile.js
+123 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+123 verbose headers   'content-type': 'application/json',
+123 verbose headers   'cache-control': 'max-age=0',
+123 verbose headers   'content-length': '51',
+123 verbose headers   'accept-ranges': 'bytes',
+123 verbose headers   date: 'Fri, 26 Jun 2015 01:29:12 GMT',
+123 verbose headers   via: '1.1 varnish',
+123 verbose headers   age: '0',
+123 verbose headers   connection: 'keep-alive',
+123 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+123 verbose headers   'x-cache': 'MISS',
+123 verbose headers   'x-cache-hits': '0',
+123 verbose headers   'x-timer': 'S1435282152.364029,VS0,VE51' }
+124 silly get cb [ 404,
+124 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+124 silly get     'content-type': 'application/json',
+124 silly get     'cache-control': 'max-age=0',
+124 silly get     'content-length': '51',
+124 silly get     'accept-ranges': 'bytes',
+124 silly get     date: 'Fri, 26 Jun 2015 01:29:12 GMT',
+124 silly get     via: '1.1 varnish',
+124 silly get     age: '0',
+124 silly get     connection: 'keep-alive',
+124 silly get     'x-served-by': 'cache-lax1428-LAX',
+124 silly get     'x-cache': 'MISS',
+124 silly get     'x-cache-hits': '0',
+124 silly get     'x-timer': 'S1435282152.364029,VS0,VE51' } ]
+125 silly addNameRange number 2 { name: 'grunt', range: '*', hasData: true }
+126 silly addNameRange versions [ 'grunt',
+126 silly addNameRange   [ '0.1.0',
+126 silly addNameRange     '0.1.1',
+126 silly addNameRange     '0.1.2',
+126 silly addNameRange     '0.2.0',
+126 silly addNameRange     '0.2.1',
+126 silly addNameRange     '0.2.2',
+126 silly addNameRange     '0.2.3',
+126 silly addNameRange     '0.2.4',
+126 silly addNameRange     '0.2.5',
+126 silly addNameRange     '0.2.6',
+126 silly addNameRange     '0.2.7',
+126 silly addNameRange     '0.2.8',
+126 silly addNameRange     '0.2.9',
+126 silly addNameRange     '0.2.10',
+126 silly addNameRange     '0.2.11',
+126 silly addNameRange     '0.2.12',
+126 silly addNameRange     '0.2.13',
+126 silly addNameRange     '0.2.14',
+126 silly addNameRange     '0.2.15',
+126 silly addNameRange     '0.3.0',
+126 silly addNameRange     '0.3.1',
+126 silly addNameRange     '0.3.2',
+126 silly addNameRange     '0.3.3',
+126 silly addNameRange     '0.3.4',
+126 silly addNameRange     '0.3.5',
+126 silly addNameRange     '0.3.6',
+126 silly addNameRange     '0.3.7',
+126 silly addNameRange     '0.3.8',
+126 silly addNameRange     '0.3.9',
+126 silly addNameRange     '0.3.10',
+126 silly addNameRange     '0.3.11',
+126 silly addNameRange     '0.3.12',
+126 silly addNameRange     '0.3.13',
+126 silly addNameRange     '0.3.14',
+126 silly addNameRange     '0.3.15',
+126 silly addNameRange     '0.3.16',
+126 silly addNameRange     '0.3.17',
+126 silly addNameRange     '0.4.0',
+126 silly addNameRange     '0.4.1',
+126 silly addNameRange     '0.4.2',
+126 silly addNameRange     '0.4.3',
+126 silly addNameRange     '0.4.4',
+126 silly addNameRange     '0.4.5',
+126 silly addNameRange     '0.3.13-a',
+126 silly addNameRange     '0.4.0-a',
+126 silly addNameRange     '0.4.0-rc1',
+126 silly addNameRange     '0.4.0-rc2',
+126 silly addNameRange     '0.4.0-rc3',
+126 silly addNameRange     '0.4.0-rc4',
+126 silly addNameRange     '0.4.0-rc5',
+126 silly addNameRange     '0.4.0-rc6',
+126 silly addNameRange     '0.4.0-rc7',
+126 silly addNameRange     '0.4.0-rc8' ] ]
+127 silly addNamed grunt@0.4.5
+128 verbose addNamed "0.4.5" is a plain semver version for grunt
+129 silly addNameRange number 2 { name: 'touch', range: '*', hasData: true }
+130 silly addNameRange versions [ 'touch', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+131 silly addNamed touch@0.0.3
+132 verbose addNamed "0.0.3" is a plain semver version for touch
+133 silly addNameRange number 2 { name: 'grunt-cli', range: '*', hasData: true }
+134 silly addNameRange versions [ 'grunt-cli',
+134 silly addNameRange   [ '0.1.0',
+134 silly addNameRange     '0.1.1',
+134 silly addNameRange     '0.1.2',
+134 silly addNameRange     '0.1.3',
+134 silly addNameRange     '0.1.4',
+134 silly addNameRange     '0.1.5',
+134 silly addNameRange     '0.1.6',
+134 silly addNameRange     '0.1.7',
+134 silly addNameRange     '0.1.8',
+134 silly addNameRange     '0.1.9',
+134 silly addNameRange     '0.1.10',
+134 silly addNameRange     '0.1.11',
+134 silly addNameRange     '0.1.12',
+134 silly addNameRange     '0.1.13' ] ]
+135 silly addNamed grunt-cli@0.1.13
+136 verbose addNamed "0.1.13" is a plain semver version for grunt-cli
+137 silly addNameRange number 2 { name: 'install', range: '*', hasData: true }
+138 silly addNameRange versions [ 'install',
+138 silly addNameRange   [ '0.1.1',
+138 silly addNameRange     '0.1.2',
+138 silly addNameRange     '0.1.3',
+138 silly addNameRange     '0.1.4',
+138 silly addNameRange     '0.1.5',
+138 silly addNameRange     '0.1.6',
+138 silly addNameRange     '0.1.7',
+138 silly addNameRange     '0.1.8' ] ]
+139 silly addNamed install@0.1.8
+140 verbose addNamed "0.1.8" is a plain semver version for install
+141 silly cache afterAdd grunt@0.4.5
+142 verbose afterAdd C:\Users\Esther\AppData\Roaming\npm-cache\grunt\0.4.5\package\package.json not in flight; writing
+143 silly cache afterAdd touch@0.0.3
+144 verbose afterAdd C:\Users\Esther\AppData\Roaming\npm-cache\touch\0.0.3\package\package.json not in flight; writing
+145 silly cache afterAdd grunt-cli@0.1.13
+146 verbose afterAdd C:\Users\Esther\AppData\Roaming\npm-cache\grunt-cli\0.1.13\package\package.json not in flight; writing
+147 silly addNameRange number 2 { name: 'npm', range: '*', hasData: true }
+148 silly addNameRange versions [ 'npm',
+148 silly addNameRange   [ '1.1.25',
+148 silly addNameRange     '1.2.32',
+148 silly addNameRange     '1.3.2',
+148 silly addNameRange     '1.3.4',
+148 silly addNameRange     '1.2.20',
+148 silly addNameRange     '1.2.21',
+148 silly addNameRange     '1.2.22',
+148 silly addNameRange     '1.2.23',
+148 silly addNameRange     '1.2.24',
+148 silly addNameRange     '1.2.25',
+148 silly addNameRange     '1.2.27',
+148 silly addNameRange     '1.2.28',
+148 silly addNameRange     '1.2.30',
+148 silly addNameRange     '1.2.31',
+148 silly addNameRange     '1.3.0',
+148 silly addNameRange     '1.3.1',
+148 silly addNameRange     '1.2.19',
+148 silly addNameRange     '1.1.70',
+148 silly addNameRange     '1.1.71',
+148 silly addNameRange     '1.3.5',
+148 silly addNameRange     '1.3.6',
+148 silly addNameRange     '1.3.7',
+148 silly addNameRange     '1.3.8',
+148 silly addNameRange     '1.3.9',
+148 silly addNameRange     '1.3.10',
+148 silly addNameRange     '1.3.11',
+148 silly addNameRange     '1.3.12',
+148 silly addNameRange     '1.3.13',
+148 silly addNameRange     '1.3.14',
+148 silly addNameRange     '1.3.15',
+148 silly addNameRange     '1.3.16',
+148 silly addNameRange     '1.3.17',
+148 silly addNameRange     '1.3.18',
+148 silly addNameRange     '1.3.20',
+148 silly addNameRange     '1.3.21',
+148 silly addNameRange     '1.3.22',
+148 silly addNameRange     '1.3.23',
+148 silly addNameRange     '1.3.24',
+148 silly addNameRange     '1.3.25',
+148 silly addNameRange     '1.3.26',
+148 silly addNameRange     '1.4.0',
+148 silly addNameRange     '1.4.1',
+148 silly addNameRange     '1.4.2',
+148 silly addNameRange     '1.4.3',
+148 silly addNameRange     '1.4.4',
+148 silly addNameRange     '1.4.5',
+148 silly addNameRange     '1.4.6',
+148 silly addNameRange     '1.4.7',
+148 silly addNameRange     '1.4.8',
+148 silly addNameRange     '1.4.9',
+148 silly addNameRange     '1.4.10',
+148 silly addNameRange     '1.4.11',
+148 silly addNameRange     '1.4.12',
+148 silly addNameRange     '1.4.13',
+148 silly addNameRange     '1.4.14',
+148 silly addNameRange     '1.4.15',
+148 silly addNameRange     '1.4.16',
+148 silly addNameRange     '1.2.8000',
+148 silly addNameRange     '1.4.17',
+148 silly addNameRange     '1.4.18',
+148 silly addNameRange     '1.4.19',
+148 silly addNameRange     '1.5.0-alpha-0',
+148 silly addNameRange     '1.5.0-alpha-1',
+148 silly addNameRange     '1.4.20',
+148 silly addNameRange     '1.5.0-alpha-2',
+148 silly addNameRange     '1.4.21',
+148 silly addNameRange     '1.5.0-alpha-3',
+148 silly addNameRange     '1.5.0-alpha-4',
+148 silly addNameRange     '2.0.0-alpha-5',
+148 silly addNameRange     '1.4.22',
+148 silly addNameRange     '1.4.23',
+148 silly addNameRange     '2.0.0-alpha.6.0',
+148 silly addNameRange     '1.4.24',
+148 silly addNameRange     '2.0.0-alpha.6',
+148 silly addNameRange     '2.0.0-alpha.7',
+148 silly addNameRange     '2.0.0-beta.0',
+148 silly addNameRange     '1.4.25',
+148 silly addNameRange     '2.0.0-beta.1',
+148 silly addNameRange     '1.4.26',
+148 silly addNameRange     '2.0.0-beta.2',
+148 silly addNameRange     '1.4.27',
+148 silly addNameRange     '2.0.0-beta.3',
+148 silly addNameRange     '1.4.28',
+148 silly addNameRange     '2.0.0',
+148 silly addNameRange     '2.0.1',
+148 silly addNameRange     '2.0.2',
+148 silly addNameRange     '2.1.0',
+148 silly addNameRange     '2.1.1',
+148 silly addNameRange     '2.1.2',
+148 silly addNameRange     '2.1.3',
+148 silly addNameRange     '2.1.4',
+148 silly addNameRange     '2.1.5',
+148 silly addNameRange     '2.1.6',
+148 silly addNameRange     '2.1.7',
+148 silly addNameRange     '2.1.8',
+148 silly addNameRange     '2.1.9',
+148 silly addNameRange     '2.1.10',
+148 silly addNameRange     '2.1.11',
+148 silly addNameRange     '2.1.12',
+148 silly addNameRange     '2.1.13',
+148 silly addNameRange     '2.1.14',
+148 silly addNameRange     '2.1.15',
+148 silly addNameRange     '2.1.16',
+148 silly addNameRange     '2.1.17',
+148 silly addNameRange     '2.1.18',
+148 silly addNameRange     '2.2.0',
+148 silly addNameRange     '2.3.0',
+148 silly addNameRange     '2.4.0',
+148 silly addNameRange     '2.4.1',
+148 silly addNameRange     '2.5.0',
+148 silly addNameRange     '2.5.1',
+148 silly addNameRange     '2.6.0',
+148 silly addNameRange     '2.6.1',
+148 silly addNameRange     '2.7.0',
+148 silly addNameRange     '2.7.1',
+148 silly addNameRange     '2.7.2',
+148 silly addNameRange     '2.7.3',
+148 silly addNameRange     '2.7.4',
+148 silly addNameRange     '2.7.5',
+148 silly addNameRange     '2.7.6',
+148 silly addNameRange     '2.8.0',
+148 silly addNameRange     '2.8.1',
+148 silly addNameRange     '2.8.2',
+148 silly addNameRange     '2.8.3',
+148 silly addNameRange     '2.8.4',
+148 silly addNameRange     '2.9.0',
+148 silly addNameRange     '2.9.1',
+148 silly addNameRange     '2.10.0',
+148 silly addNameRange     '2.10.1',
+148 silly addNameRange     '2.11.0',
+148 silly addNameRange     '2.11.1',
+148 silly addNameRange     '2.11.2',
+148 silly addNameRange     '2.11.3',
+148 silly addNameRange     '2.12.0' ] ]
+149 silly addNamed npm@2.11.3
+150 verbose addNamed "2.11.3" is a plain semver version for npm
+151 silly cache afterAdd install@0.1.8
+152 verbose afterAdd C:\Users\Esther\AppData\Roaming\npm-cache\install\0.1.8\package\package.json not in flight; writing
+153 silly cache afterAdd npm@2.11.3
+154 verbose afterAdd C:\Users\Esther\AppData\Roaming\npm-cache\npm\2.11.3\package\package.json not in flight; writing
+155 verbose afterAdd C:\Users\Esther\AppData\Roaming\npm-cache\touch\0.0.3\package\package.json written
+156 verbose afterAdd C:\Users\Esther\AppData\Roaming\npm-cache\grunt-cli\0.1.13\package\package.json written
+157 verbose afterAdd C:\Users\Esther\AppData\Roaming\npm-cache\grunt\0.4.5\package\package.json written
+158 verbose afterAdd C:\Users\Esther\AppData\Roaming\npm-cache\install\0.1.8\package\package.json written
+159 verbose afterAdd C:\Users\Esther\AppData\Roaming\npm-cache\npm\2.11.3\package\package.json written
+160 verbose stack Error: 404 Not Found: Gruntfile.js
+160 verbose stack     at CachingRegistryClient.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:245:14)
+160 verbose stack     at Request._callback (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:170:14)
+160 verbose stack     at Request.self.callback (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:368:22)
+160 verbose stack     at Request.emit (events.js:110:17)
+160 verbose stack     at Request.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1219:14)
+160 verbose stack     at Request.emit (events.js:129:20)
+160 verbose stack     at IncomingMessage.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1167:12)
+160 verbose stack     at IncomingMessage.emit (events.js:129:20)
+160 verbose stack     at _stream_readable.js:908:16
+160 verbose stack     at process._tickCallback (node.js:355:11)
+161 verbose statusCode 404
+162 verbose pkgid Gruntfile.js
+163 verbose cwd c:\Users\Esther\frontend-nanodegree-mobile-portfolio
+164 error Windows_NT 6.3.9600
+165 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "grunt-cli" "npm" "install" "-save-dev" "grunt" "touch" "Gruntfile.js"
+166 error node v0.12.4
+167 error npm  v2.10.1
+168 error code E404
+169 error 404 Not Found: Gruntfile.js
+169 error 404
+169 error 404 'Gruntfile.js' is not in the npm registry.
+169 error 404 You should bug the author to publish it (or use the name yourself!)
+169 error 404
+169 error 404 Note that you can also install from a
+169 error 404 tarball, folder, http url, or git url.
+170 verbose exit [ 1, true ]
