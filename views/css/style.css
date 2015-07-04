@@ -29,10 +29,14 @@ form {
   font-weight: 800;
 }
 
+/* Force each moving pizza to have its own composite layer */
+
 .mover {
   position: fixed;
   width: 256px;
   z-index: -1;
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 .randomPizzaContainer {
