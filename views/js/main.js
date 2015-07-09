@@ -18,6 +18,10 @@ cameron *at* udacity *dot* com
 
 // As you may have realized, this website randomly generates pizzas.
 // Here are arrays of all possible pizza ingredients.
+
+// This script will be executed in strict mode.
+"use strict";
+
 var pizzaIngredients = {};
 pizzaIngredients.meats = [
   "Pepperoni",
@@ -425,6 +429,7 @@ var resizePizzas = function(size) {
   // New width will be a different percentage depending if the pizza is small,
   // medium or large.
   function changePizzaSizes(size) {
+    var newWidth;
     switch(size) {
       case "1":
         newWidth = 25;
@@ -439,9 +444,10 @@ var resizePizzas = function(size) {
         console.log("bug in sizeSwitcher");
     }
     // Define the variable "pizzas" instead of accesing the DOM within the loop
-    var pizzas = document.querySelectorAll(".randomPizzaContainer");
+    // Use getElementsByClassName instead of querySelectorAll
+    var pizzas = document.getElementsByClassName("randomPizzaContainer");
 
-    for (var i = 0; i < pizzas.length; i++) {
+    for (var i = 0, len = pizzas.length; i < len; i++) {
       pizzas[i].style.width = newWidth + "%";
     }
   }
@@ -487,17 +493,21 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 // The following code for sliding background pizzas was pulled from Ilya's demo found at:
 // https://www.igvita.com/slides/2012/devtools-tips-and-tricks/jank-demo.html
 
-// Moves the sliding background pizzas based on scroll position
-// Uses a variable for scrollTop, instead of accessing the DOM inside the loop.
-// Uses getElementsByClassName instead of querySelectorAll
+// Move the sliding background pizzas based on scroll position
+// Use a variable for scrollTop, instead of accessing the DOM inside the loop.
+// Use getElementsByClassName instead of querySelectorAll
+// Var phase is defined outside of the loop
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
 
   var items = document.getElementsByClassName("mover");
+  var phase;
   var scrollTop = document.body.scrollTop;
-  for (var i = 0; i < items.length; i++) {
-    var phase = Math.sin((scrollTop/ 1250) + (i % 5));
+  scrollTop = scrollTop/1250;
+
+  for (var i = 0, len = items.length; i < len; i++) {
+    phase = Math.sin(scrollTop + i % 5);
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
 
@@ -515,20 +525,23 @@ function updatePositions() {
 window.addEventListener('scroll', updatePositions);
 
 // Generates the sliding pizzas when the page loads.
-// It only creates 24 animating pizzas in the background, 
-// and it only shows 6 pizzas per row.
+// It dinamically calculate the number of pizzas needed to fill the screen.
+// Var elem is outside of the loop. 
 document.addEventListener('DOMContentLoaded', function() {
-  var cols = 6;
+  var cols = 8;
   var s = 256;
-  for (var i = 0; i < 24; i++) {
-    var elem = document.createElement('img');
+  var rows = window.screen.height/s;
+  var numpizzas = rows * cols;
+  var elem;
+  for (var i = 0; i < numpizzas; i++) {
+    elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
-    document.querySelector("#movingPizzas1").appendChild(elem);
+    document.getElementById("movingPizzas1").appendChild(elem);
   }
   updatePositions();
 });
