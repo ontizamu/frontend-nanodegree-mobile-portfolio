@@ -18,8 +18,9 @@ Changes done to index.html.
 ####Part 2: Optimizations to run at 60 frames per second. 
 Changes done to views/main.js and views/css/style.css.
 
-* Create 24 animating pizzas instead of 200.
+* Create number of animating pizzas dinamically, based on the screen size.
 * Use variables instead of accesing the DOM many times.
+* Declare variables outside the loops.
 * Force each moving pizza to have its own composite layer.
-* Use document.getElementsByClassName instead of document.querySelectorAll().
+* Use document.getElementsByClassName or document.getElementById instead of document.querySelectorAll().
 
